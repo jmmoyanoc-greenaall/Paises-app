@@ -24,6 +24,14 @@ const routes:Routes = [
         component: VerPaisComponent
     },
     {
+        path: 'capital/pais/:id',
+        component: VerPaisComponent
+    },
+    {
+        path: 'region/pais/:id',
+        component: VerPaisComponent
+    },
+    {
         path: '**',
         redirectTo: ''
     }
